@@ -1,5 +1,5 @@
 {
-	"name": "nextjs-with-bun",
+	"name": "neo-battle",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
@@ -8,6 +8,7 @@
 		"start": "next start",
 		"lint": "next lint",
 		"prepare": "husky",
+		"release": "release-it",
 		"postinstall": "npx prisma generate",
 		"prisma:push": "dotenv -e .env.local -- npx prisma db push",
 		"prisma:studio": "dotenv -e .env.local -- npx prisma studio"
